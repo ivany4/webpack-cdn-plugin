@@ -125,7 +125,7 @@ You can specify a path to the main file that will be used, this is useful when y
 
 If the module comes with style sheets, you can also specify it as a path.
 
-`styleOnly`:`string` (optional)
+`styleOnly`:`boolean` | `false`
 
 If the module comes with style sheets only without any javascript, set this attribute to true. Default: false.
 
