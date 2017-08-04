@@ -109,7 +109,7 @@ The available options for each module, which is part of an array.
 
 The name of the module you want to externalize
 
-`cdn`:`string`
+`cdn`:`string` (optional)
 
 If the name from the CDN resource is different from npm, you can override with this i.e. `moment` is `moment.js` on cdnjs
 
@@ -124,6 +124,10 @@ You can specify a path to the main file that will be used, this is useful when y
 `style`:`string` (optional)
 
 If the module comes with style sheets, you can also specify it as a path.
+
+`styleOnly`:`string` (optional)
+
+If the module comes with style sheets only without any javascript, set this attribute to true. Default: false.
 
 ##### `prod`:`boolean` | `true`
 
